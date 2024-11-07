@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(77, 74, 71);
+    height: 100%;
+}
+.hero-header{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #222;
+}
+.wrapper{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo i{
+    height: 45px;
+    width: 45px;
+    background-color: #007ced;
+    border-radius: 50%;
+    color: rgb(18, 16, 16);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+nav .togglebtn{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    right: 3%;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+
+nav .navlinks{
+    list-style-type: none;
+
+}
+nav .navlinks li{
+    display: inline-block;
+}
+nav .navlinks li a{
+    color: #e5e5e5;
+    margin-right: 2.5rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+.container .hero-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #444;
+    box-shadow: 5px 7px 25px rgb(0, 0,0,0.5);
+}
+.hero-pic img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.hero-pic img:hover{
+    transform: scale(1.2);
+}
+.hero-text{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-text h5{
+    color: #e5e5e5;
+    font-size: 16px;
+}
+.hero-text h1{
+    color: #007ced;
+    font-size: 2rem;
+}
+.hero-text p{
+    color: #e5e5e5;
+}
+.btn-group{
+    margin: 45px 0;
+}
+.btn-group .btn{
+    border-color: #e5e5e5;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0px;
+    margin-right: 7px;
+    border-radius: 30px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0/ 78%);
+}
+.btn.active{
+    border-color: #007ced;
+}
+.hero-text .social i{
+    color: #e5e5e5;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero-text .social i:hover{
+    color: #007ced;
+    transform: rotate(360deg);
+}
+#hero1 {
+    height: 100%;
+    background-color: #444545;
+    color: #333; 
+    padding: 50px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+ h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px; 
+    color: #0d0d0d; 
+}
+
+.about{
+   margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 70%;
+}
+#p1{
+    line-height: 2;
+    font-size: larger;
+    color: black;
+    text-align: left;
+    
+    
+}
+#contact{
+    height: 100%;
+    background-color: #9ca0a0;
+    color: #0f0f0f; 
+    padding: 50px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+
+#contact-form label {
+    margin-bottom: 2px;
+    font-weight: bold;
+    /* margin-top: 5%; */
+}
+
+#contact-form input {
+   margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+#skill{
+    height: 100%;
+    background-color: #989898;
+    color: #1e1d1d; 
+    padding: 50px;
+    margin: 0 auto; 
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 15px; 
+    color: #0d0d0d; 
+
+}
+.sk{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+#p3{
+    line-height: 2;
+    font-size: larger;
+    color: black;
+    text-align: left;
+   
+    
+}
